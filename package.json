@@ -1,0 +1,21 @@
+{
+  "name": "wizzard-emitter",
+  "module": "dist/index.ts",
+  "type": "module",
+  "private": true,
+  "types": "./wizzard-emmitter.d.ts",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
